@@ -22,7 +22,7 @@ namespace EmployeeManagment
             {
                 options.AddPolicy("MyCors", builder =>
                 {
-                    builder.WithOrigins("https://localhost:7067")
+                    builder.WithOrigins("http://localhost:4200")
                     .AllowAnyMethod()
                     .AllowAnyHeader();
                 });
